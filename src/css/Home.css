@@ -1,0 +1,91 @@
+.container{
+    display: inline-block;
+    height: 49vh;
+    border: 2px solid rgb(232, 171, 59);
+    margin: 170px 0px 0px 140px;
+    padding: 0px 0px;
+    width: 33%;
+    color: white;
+    border-radius: 10px;
+}
+.container h1{
+    color: orange;
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 1.7rem;
+}
+.form-group input{
+    font-size: 1.1rem;
+    margin: 14px auto;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 3px 2px;
+    border-radius: 18px;
+}
+.form-group button{
+    width: 11rem;
+    height: 3rem;
+    display: block;
+    border-radius: 12px;
+    margin: 27px auto ;
+    padding: auto;
+    background-color: orange;
+}
+.form-group button:hover{
+    opacity: 0.8;
+    text-decoration: none;
+    height:2.7rem;
+    width: 10rem;
+}
+
+/* Details of website  */
+.container2{
+    width: 68vh;
+    display: flex;
+    flex-direction: column;
+    margin: -480px 0px 0px 940px;
+    color: whitesmoke;
+}
+.container2 h1{
+    font-size: 3.6rem;
+    margin: 0px 150px 0px 0px;
+}
+.container2 h1 a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.container2 h1 a:hover{
+    border: 2px solid orange;
+    transition: border 1s  ;
+}
+.container2 h1 span{
+    color: orange;
+}
+.container2 h2{
+    font-size: 1.4rem;
+    letter-spacing: 15px;
+    margin: 7px 150px 0px 0px;
+    font-family: 'Baloo Bhaina 2', 'cursive';
+}
+.container2 p {
+    margin-top: 3.5rem;
+    width: 69vh;
+    font-weight: lighter;
+    color: rgb(200, 196, 196);
+}
+
+/* Social Media Icons  */
+.container3{
+    display: flex;
+    margin: 33vh 0px 0px 84vw;
+}
+.container3 a img{
+    height: 60px;
+    padding: 10px;
+}
+.container3 a img:hover{
+    height: 70px;
+}
